@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="80">
+  <rect width="500" height="80" fill="red"/>
+  <text id="status" x="20" y="50" font-size="22" fill="white">
+    SVG-JS-NOT-EXECUTED-a1b2c3d4
+  </text>
+
+  <script type="application/ecmascript"><![CDATA[
+    document.getElementById('status').textContent =
+      'SVG-JS-EXECUTED-a1b2c3d4';
+  ]]></script>
+</svg>
